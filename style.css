@@ -1,0 +1,23 @@
+:root {
+    --brownish1: #c02d00; /*nav background color*/
+    --orange: #ff9900; 
+    --yellow: #ffebaa;
+    --vibRed: #ff1717;
+    --darkGreen: #244b00;
+    --brownish2: #571400; /*base text color*/
+}
+
+
+.bg-nav {
+    background-color: var(--brownish1);
+}
+
+main {
+    background-color: var(--yellow);
+    color: var(--brownish2);
+}
+
+.hero {
+    font-weight: bolder;
+    font-size: larger;
+}
