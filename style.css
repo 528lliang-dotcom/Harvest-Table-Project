@@ -18,7 +18,33 @@ main {
     color: var(--brownish2);
 }
 
+section {
+    border-radius: 1em;
+}
+
 .hero {
+    background-color: var(--brownish2);
+    color: var(--yellow);
     font-weight: bolder;
     font-size: larger;
+}
+
+.payBut {
+    background-color: var(--darkGreen);
+    color: var(--yellow);
+    transition-duration: 2s;
+    border: none;
+    border-radius: 1em;
+}
+
+.payBut:hover {
+    transition-duration: 1s;
+    scale: 1.05;
+}
+
+.payBut:active {
+    transition-duration: 50ms;
+    scale:0.95;
+    background-color: var(--vibRed);
+    color: var(--brownish2);
 }
